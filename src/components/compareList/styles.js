@@ -1,11 +1,9 @@
 import styled from 'styled-components';
 
-//Don't forget: The styled-components rule "styled.div``;"
-
 export const Container = styled.div`
   display: flex;
-  flex-direction: row; /*All the compare objects in a row.*/
-  justify-content: center; /*Always centralized in the middle.*/
+  flex-direction: row;
+  justify-content: center;
   margin-top: 50px;
 `;
 
@@ -14,7 +12,7 @@ export const Repository = styled.div`
   background: #fff;
   border-radius: 3px;
   display: flex;
-  flex-direction: column; /*All the elements always above of the next one.*/
+  flex-direction: column;
   margin: 0 10px;
 
   header {
@@ -52,7 +50,6 @@ export const Repository = styled.div`
         font-style: italic;
         }
 
-      /*(Even number: 2n); (Odd number: 2n - 1)*/
       &:nth-child(2n - 1) {
         background: #f5f5f5;
       }
