@@ -1,3 +1,5 @@
+# Git-Compare-ReactJS
+
 Git Compare application with ReactJS without Duck Pattern.
 
 Run the application with:
